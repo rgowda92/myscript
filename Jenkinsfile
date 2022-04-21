@@ -4,7 +4,7 @@ pipeline {
     stage('rocky') {
       steps {
               sh 'pwd'
-              sh 'echo "rocky bhai"'
+              sh 'echo "rocky bhai salam rocky bhai"'
               sh 'ls -a'
       }
     }
